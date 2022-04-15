@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="description" content="An HTML portfolio theme built" />
+		<link rel="stylesheet" href="../css/styles.css" />
+		<script
+			src="https://kit.fontawesome.com/0ec9f69e50.js"
+			crossorigin="anonymous"
+		></script>
+		<link
+			rel="stylesheet"
+			href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+		/>
+		<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+		<script defer src="../js/main.js"></script>
+		<title>Portfpolio - Portfolio Theme</title>
+	</head>
+	<body>
+		<!-- Header -->
+		<header>
+			<div class="container clearfix">
+				<h1 class="logo">
+					<a href="../index.html">Logo</a>
+				</h1>
+				<nav>
+					<ul class="clearfix">
+						<li><a href="../index.html">Home</a></li>
+						<li><a href="#">Portfolio</a></li>
+						<li><a href="./about.html">About Us</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<div class="page_banner portfolio">
+			<h2 class="fancy-box gray main_tt">Portfolio</h2>
+		</div>
+
+		<!-- Main_content -->
+		<div class="main_content subpage container">
+			<h3>Current Project</h3>
+			<h2 class="content_tt">Project name</h2>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua.
+			</p>
+			<hr />
+			<p class="portfolio_nav clearfix">
+				<a href="#" class="prev_project">&larr; previous project</a>
+				<a href="#" class="next_project">next project &rarr;</a>
+			</p>
+			<div class="swiper portfolio_slider">
+				<div class="swiper-wrapper">
+					<img
+						class="swiper-slide"
+						src="../images/slide-1-bg.jpg"
+						alt="slide1"
+					/>
+					<img
+						class="swiper-slide"
+						src="../images/slide-2-bg.jpg"
+						alt="slide2"
+					/>
+					<img
+						class="swiper-slide"
+						src="../images/slide-3-bg.jpg"
+						alt="slide3"
+					/>
+				</div>
+				<div class="swiper-button-prev"></div>
+				<div class="swiper-button-next"></div>
+			</div>
+		</div>
+
+		<!-- footer -->
+		<footer>
+			<span class="envelope_icon fancy-box orange"
+				><i class="fa-solid fa-envelope"></i
+			></span>
+			<div class="subscribe">
+				<p>
+					Wanna see my latest photos? Enter your email below and I'll send you
+					one email a month with the latest updates.
+				</p>
+				<form action="#" method="post">
+					<input type="email" name="email" placeholder="your email address" />
+					<button type="submit" class="btn">subscribe</button>
+				</form>
+			</div>
+			<p class="share">
+				<a href=""><i class="fa-brands fa-twitter-square"></i></a>
+				<a href=""><i class="fa-brands fa-facebook-square"></i></a>
+			</p>
+			<p class="copy">&copy; 2022 portfolio theme</p>
+		</footer>
+	</body>
+</html>
